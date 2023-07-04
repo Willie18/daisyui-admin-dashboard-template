@@ -15,8 +15,6 @@ export const leadsSlice = createSlice({
         leads : []
     },
     reducers: {
-
-
         addNewLead: (state, action) => {
             let {newLeadObj} = action.payload
             state.leads = [...state.leads, newLeadObj]

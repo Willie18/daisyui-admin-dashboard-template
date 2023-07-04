@@ -9,11 +9,11 @@ function InternalPage(){
     const dispatch = useDispatch()
 
     useEffect(() => {
-        dispatch(setPageTitle({ title : ""}))
+        dispatch(setPageTitle({ title : "Home"}))
       }, [])
 
     return(
-      <div className="hero h-4/5 bg-base-200">
+      <div className="hero h-5/6 bg-base-200">
       <div className="hero-content">
         <div className="max-w-md">
             <TemplatePointers />

@@ -9,8 +9,7 @@ import StackBarChart from './components/StackBarChart'
 
 
 function Charts(){
-
-
+    
     return(
         <>
         {/** ---------------------- Different charts ------------------------- */}

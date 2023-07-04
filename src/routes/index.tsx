@@ -15,6 +15,9 @@ const ProfileSettings = lazy(() => import('../pages/protected/ProfileSettings'))
 const GettingStarted = lazy(() => import('../pages/GettingStarted'))
 const DocFeatures = lazy(() => import('../pages/DocFeatures'))
 const DocComponents = lazy(() => import('../pages/DocComponents'))
+const Documents  = lazy(() => import('../pages/protected/Documents'))
+const FileExplorer  = lazy(() => import('../pages/protected/Cabinet'))
+const Workflow  = lazy(() => import('../pages/protected/Workflow'))
 
 
 const routes = [
@@ -70,6 +73,18 @@ const routes = [
     path: '/blank',
     component: Blank,
   },
+  {
+    path: '/all-documents',
+    component: Documents,
+  },
+  {
+    path: '/all-files',
+    component: FileExplorer,
+  },
+  {
+    path: '/workflows',
+    component: Workflow,
+  }
 ]
 
 export default routes
